@@ -1,0 +1,20 @@
+{
+  "name": "web-and-mobile",
+  "version": "1.0.0",
+  "description": "Course exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaosma/web-and-mobile.git"
+  },
+  "author": "jaosma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaosma/web-and-mobile/issues"
+  },
+  "homepage": "https://github.com/jaosma/web-and-mobile#readme"
+}
