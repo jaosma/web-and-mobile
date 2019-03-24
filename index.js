@@ -49,6 +49,32 @@ let persons = [
     response.status(204).end()
   })
 
+  const generateRandomId = () => {
+    return Math.floor(Math.random() * Math.floor(10000));
+  }
+
+  app.post('/api/persons', (request, response) => {
+      const body = request.body
+
+      if(body.name === undefined || body.number === undefined) {
+          return response.status(400).json({error: 'name or number missing'})
+      }
+
+      if(persons.find(person => person.name === body.name)){
+          return response.status(400).json({error: 'name must be unique'})
+      }
+
+      const person = {
+          name: body.name,
+          number: body.number,
+          id: generateRandomId()
+      }
+
+      persons = persons.concat(person)
+
+      response.json(person)
+  })
+
   const PORT = 3001
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
