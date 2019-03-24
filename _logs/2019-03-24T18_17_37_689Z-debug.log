@@ -1,0 +1,1087 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   '--save' ]
+2 info using npm@6.4.1
+3 info using node@v10.15.0
+4 verbose npm-session 516211516c928f3f
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/express 116ms
+8 silly pacote tag manifest for express@latest fetched in 136ms
+9 timing stage:loadCurrentTree Completed in 315ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule express@4.16.4 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/accepts 27ms
+18 silly pacote range manifest for accepts@~1.3.5 fetched in 37ms
+19 silly resolveWithNewModule accepts@1.3.5 checking installable status
+20 http fetch GET 200 https://registry.npmjs.org/cookie 43ms
+21 http fetch GET 200 https://registry.npmjs.org/array-flatten 45ms
+22 http fetch GET 200 https://registry.npmjs.org/body-parser 47ms
+23 http fetch GET 200 https://registry.npmjs.org/cookie-signature 48ms
+24 http fetch GET 200 https://registry.npmjs.org/debug 47ms
+25 http fetch GET 200 https://registry.npmjs.org/depd 48ms
+26 http fetch GET 200 https://registry.npmjs.org/content-disposition 49ms
+27 http fetch GET 200 https://registry.npmjs.org/encodeurl 48ms
+28 http fetch GET 200 https://registry.npmjs.org/content-type 51ms
+29 silly pacote version manifest for cookie@0.3.1 fetched in 60ms
+30 silly resolveWithNewModule cookie@0.3.1 checking installable status
+31 silly pacote version manifest for cookie-signature@1.0.6 fetched in 83ms
+32 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+33 silly pacote version manifest for body-parser@1.18.3 fetched in 84ms
+34 silly resolveWithNewModule body-parser@1.18.3 checking installable status
+35 http fetch GET 200 https://registry.npmjs.org/escape-html 52ms
+36 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz 34ms
+37 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 39ms
+38 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz 37ms
+39 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-1.1.2.tgz 39ms
+40 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 37ms
+41 http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 44ms
+42 http fetch GET 200 https://registry.npmjs.org/etag 29ms
+43 silly pacote range manifest for escape-html@~1.0.3 fetched in 60ms
+44 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+45 silly pacote range manifest for content-type@~1.0.4 fetched in 95ms
+46 silly resolveWithNewModule content-type@1.0.4 checking installable status
+47 silly pacote version manifest for content-disposition@0.5.2 fetched in 96ms
+48 silly resolveWithNewModule content-disposition@0.5.2 checking installable status
+49 silly pacote range manifest for depd@~1.1.2 fetched in 95ms
+50 silly resolveWithNewModule depd@1.1.2 checking installable status
+51 silly pacote version manifest for debug@2.6.9 fetched in 95ms
+52 silly resolveWithNewModule debug@2.6.9 checking installable status
+53 silly pacote range manifest for encodeurl@~1.0.2 fetched in 95ms
+54 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+55 silly pacote version manifest for array-flatten@1.1.1 fetched in 102ms
+56 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+57 http fetch GET 200 https://registry.npmjs.org/fresh 21ms
+58 http fetch GET 200 https://registry.npmjs.org/finalhandler 22ms
+59 silly pacote version manifest for fresh@0.5.2 fetched in 26ms
+60 silly resolveWithNewModule fresh@0.5.2 checking installable status
+61 silly pacote version manifest for finalhandler@1.1.1 fetched in 27ms
+62 silly resolveWithNewModule finalhandler@1.1.1 checking installable status
+63 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 30ms
+64 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 36ms
+65 http fetch GET 200 https://registry.npmjs.org/methods 30ms
+66 http fetch GET 200 https://registry.npmjs.org/on-finished 31ms
+67 http fetch GET 200 https://registry.npmjs.org/parseurl 31ms
+68 http fetch GET 200 https://registry.npmjs.org/proxy-addr 30ms
+69 http fetch GET 200 https://registry.npmjs.org/qs 28ms
+70 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 40ms
+71 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+72 http fetch GET 200 https://registry.npmjs.org/safe-buffer 28ms
+73 silly pacote range manifest for etag@~1.8.1 fetched in 77ms
+74 silly resolveWithNewModule etag@1.8.1 checking installable status
+75 silly pacote range manifest for methods@~1.1.2 fetched in 42ms
+76 silly resolveWithNewModule methods@1.1.2 checking installable status
+77 silly pacote range manifest for on-finished@~2.3.0 fetched in 42ms
+78 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+79 silly pacote range manifest for parseurl@~1.3.2 fetched in 45ms
+80 silly resolveWithNewModule parseurl@1.3.2 checking installable status
+81 silly pacote version manifest for qs@6.5.2 fetched in 41ms
+82 silly resolveWithNewModule qs@6.5.2 checking installable status
+83 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 46ms
+84 silly pacote version manifest for safe-buffer@5.1.2 fetched in 36ms
+85 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+86 http fetch GET 200 https://registry.npmjs.org/range-parser 39ms
+87 http fetch GET 200 https://registry.npmjs.org/send 21ms
+88 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.4.tgz 25ms
+89 http fetch GET 200 https://registry.npmjs.org/statuses 25ms
+90 http fetch GET 200 https://registry.npmjs.org/setprototypeof 26ms
+91 http fetch GET 200 https://registry.npmjs.org/serve-static 28ms
+92 silly pacote range manifest for proxy-addr@~2.0.4 fetched in 69ms
+93 silly resolveWithNewModule proxy-addr@2.0.4 checking installable status
+94 http fetch GET 200 https://registry.npmjs.org/type-is 26ms
+95 silly pacote version manifest for send@0.16.2 fetched in 35ms
+96 silly resolveWithNewModule send@0.16.2 checking installable status
+97 http fetch GET 200 https://registry.npmjs.org/utils-merge 27ms
+98 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz 26ms
+99 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz 23ms
+100 http fetch GET 200 https://registry.npmjs.org/vary 26ms
+101 silly pacote version manifest for serve-static@1.13.2 fetched in 35ms
+102 silly resolveWithNewModule serve-static@1.13.2 checking installable status
+103 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 77ms
+104 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+105 silly pacote version manifest for utils-merge@1.0.1 fetched in 32ms
+106 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+107 silly pacote range manifest for type-is@~1.6.16 fetched in 32ms
+108 silly resolveWithNewModule type-is@1.6.16 checking installable status
+109 silly pacote range manifest for range-parser@~1.2.0 fetched in 67ms
+110 silly resolveWithNewModule range-parser@1.2.0 checking installable status
+111 silly pacote range manifest for vary@~1.1.2 fetched in 31ms
+112 silly resolveWithNewModule vary@1.1.2 checking installable status
+113 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz 17ms
+114 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz 19ms
+115 silly pacote version manifest for setprototypeof@1.1.0 fetched in 47ms
+116 silly resolveWithNewModule setprototypeof@1.1.0 checking installable status
+117 silly pacote range manifest for statuses@~1.4.0 fetched in 50ms
+118 silly resolveWithNewModule statuses@1.4.0 checking installable status
+119 http fetch GET 200 https://registry.npmjs.org/mime-types 17ms
+120 http fetch GET 200 https://registry.npmjs.org/negotiator 17ms
+121 silly pacote range manifest for mime-types@~2.1.18 fetched in 20ms
+122 silly resolveWithNewModule mime-types@2.1.22 checking installable status
+123 silly pacote version manifest for negotiator@0.6.1 fetched in 21ms
+124 silly resolveWithNewModule negotiator@0.6.1 checking installable status
+125 http fetch GET 200 https://registry.npmjs.org/mime-db 16ms
+126 silly pacote range manifest for mime-db@~1.38.0 fetched in 19ms
+127 silly resolveWithNewModule mime-db@1.38.0 checking installable status
+128 http fetch GET 200 https://registry.npmjs.org/iconv-lite 18ms
+129 http fetch GET 200 https://registry.npmjs.org/http-errors 22ms
+130 http fetch GET 200 https://registry.npmjs.org/bytes 22ms
+131 silly pacote version manifest for iconv-lite@0.4.23 fetched in 22ms
+132 silly resolveWithNewModule iconv-lite@0.4.23 checking installable status
+133 http fetch GET 200 https://registry.npmjs.org/raw-body 24ms
+134 silly pacote range manifest for http-errors@~1.6.3 fetched in 27ms
+135 silly resolveWithNewModule http-errors@1.6.3 checking installable status
+136 silly pacote version manifest for raw-body@2.3.3 fetched in 27ms
+137 silly resolveWithNewModule raw-body@2.3.3 checking installable status
+138 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz 19ms
+139 silly pacote version manifest for bytes@3.0.0 fetched in 45ms
+140 silly resolveWithNewModule bytes@3.0.0 checking installable status
+141 http fetch GET 200 https://registry.npmjs.org/ms 27ms
+142 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 18ms
+143 silly pacote version manifest for ms@2.0.0 fetched in 47ms
+144 silly resolveWithNewModule ms@2.0.0 checking installable status
+145 http fetch GET 200 https://registry.npmjs.org/inherits 23ms
+146 silly pacote version manifest for inherits@2.0.3 fetched in 25ms
+147 silly resolveWithNewModule inherits@2.0.3 checking installable status
+148 http fetch GET 200 https://registry.npmjs.org/safer-buffer 15ms
+149 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 18ms
+150 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+151 http fetch GET 200 https://registry.npmjs.org/ee-first 14ms
+152 silly pacote version manifest for ee-first@1.1.1 fetched in 17ms
+153 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+154 http fetch GET 200 https://registry.npmjs.org/unpipe 18ms
+155 silly pacote version manifest for unpipe@1.0.0 fetched in 21ms
+156 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+157 http fetch GET 200 https://registry.npmjs.org/media-typer 15ms
+158 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 16ms
+159 silly pacote version manifest for media-typer@0.3.0 fetched in 34ms
+160 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+161 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 16ms
+162 http fetch GET 200 https://registry.npmjs.org/forwarded 18ms
+163 silly pacote version manifest for ipaddr.js@1.8.0 fetched in 20ms
+164 silly resolveWithNewModule ipaddr.js@1.8.0 checking installable status
+165 silly pacote range manifest for forwarded@~0.1.2 fetched in 21ms
+166 silly resolveWithNewModule forwarded@0.1.2 checking installable status
+167 http fetch GET 200 https://registry.npmjs.org/mime 14ms
+168 http fetch GET 200 https://registry.npmjs.org/destroy 17ms
+169 silly pacote range manifest for destroy@~1.0.4 fetched in 20ms
+170 silly resolveWithNewModule destroy@1.0.4 checking installable status
+171 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.4.1.tgz 22ms
+172 silly pacote version manifest for mime@1.4.1 fetched in 41ms
+173 silly resolveWithNewModule mime@1.4.1 checking installable status
+174 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 539ms
+175 timing stage:loadIdealTree Completed in 550ms
+176 silly currentTree web-and-mobile@1.0.0
+177 silly idealTree web-and-mobile@1.0.0
+177 silly idealTree +-- accepts@1.3.5
+177 silly idealTree +-- array-flatten@1.1.1
+177 silly idealTree +-- body-parser@1.18.3
+177 silly idealTree +-- bytes@3.0.0
+177 silly idealTree +-- content-disposition@0.5.2
+177 silly idealTree +-- content-type@1.0.4
+177 silly idealTree +-- cookie-signature@1.0.6
+177 silly idealTree +-- cookie@0.3.1
+177 silly idealTree +-- debug@2.6.9
+177 silly idealTree +-- depd@1.1.2
+177 silly idealTree +-- destroy@1.0.4
+177 silly idealTree +-- ee-first@1.1.1
+177 silly idealTree +-- encodeurl@1.0.2
+177 silly idealTree +-- escape-html@1.0.3
+177 silly idealTree +-- etag@1.8.1
+177 silly idealTree +-- express@4.16.4
+177 silly idealTree +-- finalhandler@1.1.1
+177 silly idealTree +-- forwarded@0.1.2
+177 silly idealTree +-- fresh@0.5.2
+177 silly idealTree +-- http-errors@1.6.3
+177 silly idealTree +-- iconv-lite@0.4.23
+177 silly idealTree +-- inherits@2.0.3
+177 silly idealTree +-- ipaddr.js@1.8.0
+177 silly idealTree +-- media-typer@0.3.0
+177 silly idealTree +-- merge-descriptors@1.0.1
+177 silly idealTree +-- methods@1.1.2
+177 silly idealTree +-- mime-db@1.38.0
+177 silly idealTree +-- mime-types@2.1.22
+177 silly idealTree +-- mime@1.4.1
+177 silly idealTree +-- ms@2.0.0
+177 silly idealTree +-- negotiator@0.6.1
+177 silly idealTree +-- on-finished@2.3.0
+177 silly idealTree +-- parseurl@1.3.2
+177 silly idealTree +-- path-to-regexp@0.1.7
+177 silly idealTree +-- proxy-addr@2.0.4
+177 silly idealTree +-- qs@6.5.2
+177 silly idealTree +-- range-parser@1.2.0
+177 silly idealTree +-- raw-body@2.3.3
+177 silly idealTree +-- safe-buffer@5.1.2
+177 silly idealTree +-- safer-buffer@2.1.2
+177 silly idealTree +-- send@0.16.2
+177 silly idealTree +-- serve-static@1.13.2
+177 silly idealTree +-- setprototypeof@1.1.0
+177 silly idealTree +-- statuses@1.4.0
+177 silly idealTree +-- type-is@1.6.16
+177 silly idealTree +-- unpipe@1.0.0
+177 silly idealTree +-- utils-merge@1.0.1
+177 silly idealTree `-- vary@1.1.2
+178 silly install generateActionsToTake
+179 timing stage:generateActionsToTake Completed in 9ms
+180 silly diffTrees action count 48
+181 silly diffTrees add bytes@3.0.0
+182 silly diffTrees add content-type@1.0.4
+183 silly diffTrees add depd@1.1.2
+184 silly diffTrees add destroy@1.0.4
+185 silly diffTrees add ee-first@1.1.1
+186 silly diffTrees add encodeurl@1.0.2
+187 silly diffTrees add escape-html@1.0.3
+188 silly diffTrees add etag@1.8.1
+189 silly diffTrees add forwarded@0.1.2
+190 silly diffTrees add fresh@0.5.2
+191 silly diffTrees add inherits@2.0.3
+192 silly diffTrees add ipaddr.js@1.8.0
+193 silly diffTrees add media-typer@0.3.0
+194 silly diffTrees add mime@1.4.1
+195 silly diffTrees add mime-db@1.38.0
+196 silly diffTrees add mime-types@2.1.22
+197 silly diffTrees add ms@2.0.0
+198 silly diffTrees add debug@2.6.9
+199 silly diffTrees add negotiator@0.6.1
+200 silly diffTrees add on-finished@2.3.0
+201 silly diffTrees add parseurl@1.3.2
+202 silly diffTrees add qs@6.5.2
+203 silly diffTrees add range-parser@1.2.0
+204 silly diffTrees add safer-buffer@2.1.2
+205 silly diffTrees add iconv-lite@0.4.23
+206 silly diffTrees add setprototypeof@1.1.0
+207 silly diffTrees add statuses@1.4.0
+208 silly diffTrees add http-errors@1.6.3
+209 silly diffTrees add send@0.16.2
+210 silly diffTrees add type-is@1.6.16
+211 silly diffTrees add unpipe@1.0.0
+212 silly diffTrees add raw-body@2.3.3
+213 silly diffTrees add accepts@1.3.5
+214 silly diffTrees add array-flatten@1.1.1
+215 silly diffTrees add body-parser@1.18.3
+216 silly diffTrees add content-disposition@0.5.2
+217 silly diffTrees add cookie@0.3.1
+218 silly diffTrees add cookie-signature@1.0.6
+219 silly diffTrees add finalhandler@1.1.1
+220 silly diffTrees add merge-descriptors@1.0.1
+221 silly diffTrees add methods@1.1.2
+222 silly diffTrees add path-to-regexp@0.1.7
+223 silly diffTrees add proxy-addr@2.0.4
+224 silly diffTrees add safe-buffer@5.1.2
+225 silly diffTrees add serve-static@1.13.2
+226 silly diffTrees add utils-merge@1.0.1
+227 silly diffTrees add vary@1.1.2
+228 silly diffTrees add express@4.16.4
+229 silly decomposeActions action count 384
+230 silly decomposeActions fetch bytes@3.0.0
+231 silly decomposeActions extract bytes@3.0.0
+232 silly decomposeActions preinstall bytes@3.0.0
+233 silly decomposeActions build bytes@3.0.0
+234 silly decomposeActions install bytes@3.0.0
+235 silly decomposeActions postinstall bytes@3.0.0
+236 silly decomposeActions finalize bytes@3.0.0
+237 silly decomposeActions refresh-package-json bytes@3.0.0
+238 silly decomposeActions fetch content-type@1.0.4
+239 silly decomposeActions extract content-type@1.0.4
+240 silly decomposeActions preinstall content-type@1.0.4
+241 silly decomposeActions build content-type@1.0.4
+242 silly decomposeActions install content-type@1.0.4
+243 silly decomposeActions postinstall content-type@1.0.4
+244 silly decomposeActions finalize content-type@1.0.4
+245 silly decomposeActions refresh-package-json content-type@1.0.4
+246 silly decomposeActions fetch depd@1.1.2
+247 silly decomposeActions extract depd@1.1.2
+248 silly decomposeActions preinstall depd@1.1.2
+249 silly decomposeActions build depd@1.1.2
+250 silly decomposeActions install depd@1.1.2
+251 silly decomposeActions postinstall depd@1.1.2
+252 silly decomposeActions finalize depd@1.1.2
+253 silly decomposeActions refresh-package-json depd@1.1.2
+254 silly decomposeActions fetch destroy@1.0.4
+255 silly decomposeActions extract destroy@1.0.4
+256 silly decomposeActions preinstall destroy@1.0.4
+257 silly decomposeActions build destroy@1.0.4
+258 silly decomposeActions install destroy@1.0.4
+259 silly decomposeActions postinstall destroy@1.0.4
+260 silly decomposeActions finalize destroy@1.0.4
+261 silly decomposeActions refresh-package-json destroy@1.0.4
+262 silly decomposeActions fetch ee-first@1.1.1
+263 silly decomposeActions extract ee-first@1.1.1
+264 silly decomposeActions preinstall ee-first@1.1.1
+265 silly decomposeActions build ee-first@1.1.1
+266 silly decomposeActions install ee-first@1.1.1
+267 silly decomposeActions postinstall ee-first@1.1.1
+268 silly decomposeActions finalize ee-first@1.1.1
+269 silly decomposeActions refresh-package-json ee-first@1.1.1
+270 silly decomposeActions fetch encodeurl@1.0.2
+271 silly decomposeActions extract encodeurl@1.0.2
+272 silly decomposeActions preinstall encodeurl@1.0.2
+273 silly decomposeActions build encodeurl@1.0.2
+274 silly decomposeActions install encodeurl@1.0.2
+275 silly decomposeActions postinstall encodeurl@1.0.2
+276 silly decomposeActions finalize encodeurl@1.0.2
+277 silly decomposeActions refresh-package-json encodeurl@1.0.2
+278 silly decomposeActions fetch escape-html@1.0.3
+279 silly decomposeActions extract escape-html@1.0.3
+280 silly decomposeActions preinstall escape-html@1.0.3
+281 silly decomposeActions build escape-html@1.0.3
+282 silly decomposeActions install escape-html@1.0.3
+283 silly decomposeActions postinstall escape-html@1.0.3
+284 silly decomposeActions finalize escape-html@1.0.3
+285 silly decomposeActions refresh-package-json escape-html@1.0.3
+286 silly decomposeActions fetch etag@1.8.1
+287 silly decomposeActions extract etag@1.8.1
+288 silly decomposeActions preinstall etag@1.8.1
+289 silly decomposeActions build etag@1.8.1
+290 silly decomposeActions install etag@1.8.1
+291 silly decomposeActions postinstall etag@1.8.1
+292 silly decomposeActions finalize etag@1.8.1
+293 silly decomposeActions refresh-package-json etag@1.8.1
+294 silly decomposeActions fetch forwarded@0.1.2
+295 silly decomposeActions extract forwarded@0.1.2
+296 silly decomposeActions preinstall forwarded@0.1.2
+297 silly decomposeActions build forwarded@0.1.2
+298 silly decomposeActions install forwarded@0.1.2
+299 silly decomposeActions postinstall forwarded@0.1.2
+300 silly decomposeActions finalize forwarded@0.1.2
+301 silly decomposeActions refresh-package-json forwarded@0.1.2
+302 silly decomposeActions fetch fresh@0.5.2
+303 silly decomposeActions extract fresh@0.5.2
+304 silly decomposeActions preinstall fresh@0.5.2
+305 silly decomposeActions build fresh@0.5.2
+306 silly decomposeActions install fresh@0.5.2
+307 silly decomposeActions postinstall fresh@0.5.2
+308 silly decomposeActions finalize fresh@0.5.2
+309 silly decomposeActions refresh-package-json fresh@0.5.2
+310 silly decomposeActions fetch inherits@2.0.3
+311 silly decomposeActions extract inherits@2.0.3
+312 silly decomposeActions preinstall inherits@2.0.3
+313 silly decomposeActions build inherits@2.0.3
+314 silly decomposeActions install inherits@2.0.3
+315 silly decomposeActions postinstall inherits@2.0.3
+316 silly decomposeActions finalize inherits@2.0.3
+317 silly decomposeActions refresh-package-json inherits@2.0.3
+318 silly decomposeActions fetch ipaddr.js@1.8.0
+319 silly decomposeActions extract ipaddr.js@1.8.0
+320 silly decomposeActions preinstall ipaddr.js@1.8.0
+321 silly decomposeActions build ipaddr.js@1.8.0
+322 silly decomposeActions install ipaddr.js@1.8.0
+323 silly decomposeActions postinstall ipaddr.js@1.8.0
+324 silly decomposeActions finalize ipaddr.js@1.8.0
+325 silly decomposeActions refresh-package-json ipaddr.js@1.8.0
+326 silly decomposeActions fetch media-typer@0.3.0
+327 silly decomposeActions extract media-typer@0.3.0
+328 silly decomposeActions preinstall media-typer@0.3.0
+329 silly decomposeActions build media-typer@0.3.0
+330 silly decomposeActions install media-typer@0.3.0
+331 silly decomposeActions postinstall media-typer@0.3.0
+332 silly decomposeActions finalize media-typer@0.3.0
+333 silly decomposeActions refresh-package-json media-typer@0.3.0
+334 silly decomposeActions fetch mime@1.4.1
+335 silly decomposeActions extract mime@1.4.1
+336 silly decomposeActions preinstall mime@1.4.1
+337 silly decomposeActions build mime@1.4.1
+338 silly decomposeActions install mime@1.4.1
+339 silly decomposeActions postinstall mime@1.4.1
+340 silly decomposeActions finalize mime@1.4.1
+341 silly decomposeActions refresh-package-json mime@1.4.1
+342 silly decomposeActions fetch mime-db@1.38.0
+343 silly decomposeActions extract mime-db@1.38.0
+344 silly decomposeActions preinstall mime-db@1.38.0
+345 silly decomposeActions build mime-db@1.38.0
+346 silly decomposeActions install mime-db@1.38.0
+347 silly decomposeActions postinstall mime-db@1.38.0
+348 silly decomposeActions finalize mime-db@1.38.0
+349 silly decomposeActions refresh-package-json mime-db@1.38.0
+350 silly decomposeActions fetch mime-types@2.1.22
+351 silly decomposeActions extract mime-types@2.1.22
+352 silly decomposeActions preinstall mime-types@2.1.22
+353 silly decomposeActions build mime-types@2.1.22
+354 silly decomposeActions install mime-types@2.1.22
+355 silly decomposeActions postinstall mime-types@2.1.22
+356 silly decomposeActions finalize mime-types@2.1.22
+357 silly decomposeActions refresh-package-json mime-types@2.1.22
+358 silly decomposeActions fetch ms@2.0.0
+359 silly decomposeActions extract ms@2.0.0
+360 silly decomposeActions preinstall ms@2.0.0
+361 silly decomposeActions build ms@2.0.0
+362 silly decomposeActions install ms@2.0.0
+363 silly decomposeActions postinstall ms@2.0.0
+364 silly decomposeActions finalize ms@2.0.0
+365 silly decomposeActions refresh-package-json ms@2.0.0
+366 silly decomposeActions fetch debug@2.6.9
+367 silly decomposeActions extract debug@2.6.9
+368 silly decomposeActions preinstall debug@2.6.9
+369 silly decomposeActions build debug@2.6.9
+370 silly decomposeActions install debug@2.6.9
+371 silly decomposeActions postinstall debug@2.6.9
+372 silly decomposeActions finalize debug@2.6.9
+373 silly decomposeActions refresh-package-json debug@2.6.9
+374 silly decomposeActions fetch negotiator@0.6.1
+375 silly decomposeActions extract negotiator@0.6.1
+376 silly decomposeActions preinstall negotiator@0.6.1
+377 silly decomposeActions build negotiator@0.6.1
+378 silly decomposeActions install negotiator@0.6.1
+379 silly decomposeActions postinstall negotiator@0.6.1
+380 silly decomposeActions finalize negotiator@0.6.1
+381 silly decomposeActions refresh-package-json negotiator@0.6.1
+382 silly decomposeActions fetch on-finished@2.3.0
+383 silly decomposeActions extract on-finished@2.3.0
+384 silly decomposeActions preinstall on-finished@2.3.0
+385 silly decomposeActions build on-finished@2.3.0
+386 silly decomposeActions install on-finished@2.3.0
+387 silly decomposeActions postinstall on-finished@2.3.0
+388 silly decomposeActions finalize on-finished@2.3.0
+389 silly decomposeActions refresh-package-json on-finished@2.3.0
+390 silly decomposeActions fetch parseurl@1.3.2
+391 silly decomposeActions extract parseurl@1.3.2
+392 silly decomposeActions preinstall parseurl@1.3.2
+393 silly decomposeActions build parseurl@1.3.2
+394 silly decomposeActions install parseurl@1.3.2
+395 silly decomposeActions postinstall parseurl@1.3.2
+396 silly decomposeActions finalize parseurl@1.3.2
+397 silly decomposeActions refresh-package-json parseurl@1.3.2
+398 silly decomposeActions fetch qs@6.5.2
+399 silly decomposeActions extract qs@6.5.2
+400 silly decomposeActions preinstall qs@6.5.2
+401 silly decomposeActions build qs@6.5.2
+402 silly decomposeActions install qs@6.5.2
+403 silly decomposeActions postinstall qs@6.5.2
+404 silly decomposeActions finalize qs@6.5.2
+405 silly decomposeActions refresh-package-json qs@6.5.2
+406 silly decomposeActions fetch range-parser@1.2.0
+407 silly decomposeActions extract range-parser@1.2.0
+408 silly decomposeActions preinstall range-parser@1.2.0
+409 silly decomposeActions build range-parser@1.2.0
+410 silly decomposeActions install range-parser@1.2.0
+411 silly decomposeActions postinstall range-parser@1.2.0
+412 silly decomposeActions finalize range-parser@1.2.0
+413 silly decomposeActions refresh-package-json range-parser@1.2.0
+414 silly decomposeActions fetch safer-buffer@2.1.2
+415 silly decomposeActions extract safer-buffer@2.1.2
+416 silly decomposeActions preinstall safer-buffer@2.1.2
+417 silly decomposeActions build safer-buffer@2.1.2
+418 silly decomposeActions install safer-buffer@2.1.2
+419 silly decomposeActions postinstall safer-buffer@2.1.2
+420 silly decomposeActions finalize safer-buffer@2.1.2
+421 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+422 silly decomposeActions fetch iconv-lite@0.4.23
+423 silly decomposeActions extract iconv-lite@0.4.23
+424 silly decomposeActions preinstall iconv-lite@0.4.23
+425 silly decomposeActions build iconv-lite@0.4.23
+426 silly decomposeActions install iconv-lite@0.4.23
+427 silly decomposeActions postinstall iconv-lite@0.4.23
+428 silly decomposeActions finalize iconv-lite@0.4.23
+429 silly decomposeActions refresh-package-json iconv-lite@0.4.23
+430 silly decomposeActions fetch setprototypeof@1.1.0
+431 silly decomposeActions extract setprototypeof@1.1.0
+432 silly decomposeActions preinstall setprototypeof@1.1.0
+433 silly decomposeActions build setprototypeof@1.1.0
+434 silly decomposeActions install setprototypeof@1.1.0
+435 silly decomposeActions postinstall setprototypeof@1.1.0
+436 silly decomposeActions finalize setprototypeof@1.1.0
+437 silly decomposeActions refresh-package-json setprototypeof@1.1.0
+438 silly decomposeActions fetch statuses@1.4.0
+439 silly decomposeActions extract statuses@1.4.0
+440 silly decomposeActions preinstall statuses@1.4.0
+441 silly decomposeActions build statuses@1.4.0
+442 silly decomposeActions install statuses@1.4.0
+443 silly decomposeActions postinstall statuses@1.4.0
+444 silly decomposeActions finalize statuses@1.4.0
+445 silly decomposeActions refresh-package-json statuses@1.4.0
+446 silly decomposeActions fetch http-errors@1.6.3
+447 silly decomposeActions extract http-errors@1.6.3
+448 silly decomposeActions preinstall http-errors@1.6.3
+449 silly decomposeActions build http-errors@1.6.3
+450 silly decomposeActions install http-errors@1.6.3
+451 silly decomposeActions postinstall http-errors@1.6.3
+452 silly decomposeActions finalize http-errors@1.6.3
+453 silly decomposeActions refresh-package-json http-errors@1.6.3
+454 silly decomposeActions fetch send@0.16.2
+455 silly decomposeActions extract send@0.16.2
+456 silly decomposeActions preinstall send@0.16.2
+457 silly decomposeActions build send@0.16.2
+458 silly decomposeActions install send@0.16.2
+459 silly decomposeActions postinstall send@0.16.2
+460 silly decomposeActions finalize send@0.16.2
+461 silly decomposeActions refresh-package-json send@0.16.2
+462 silly decomposeActions fetch type-is@1.6.16
+463 silly decomposeActions extract type-is@1.6.16
+464 silly decomposeActions preinstall type-is@1.6.16
+465 silly decomposeActions build type-is@1.6.16
+466 silly decomposeActions install type-is@1.6.16
+467 silly decomposeActions postinstall type-is@1.6.16
+468 silly decomposeActions finalize type-is@1.6.16
+469 silly decomposeActions refresh-package-json type-is@1.6.16
+470 silly decomposeActions fetch unpipe@1.0.0
+471 silly decomposeActions extract unpipe@1.0.0
+472 silly decomposeActions preinstall unpipe@1.0.0
+473 silly decomposeActions build unpipe@1.0.0
+474 silly decomposeActions install unpipe@1.0.0
+475 silly decomposeActions postinstall unpipe@1.0.0
+476 silly decomposeActions finalize unpipe@1.0.0
+477 silly decomposeActions refresh-package-json unpipe@1.0.0
+478 silly decomposeActions fetch raw-body@2.3.3
+479 silly decomposeActions extract raw-body@2.3.3
+480 silly decomposeActions preinstall raw-body@2.3.3
+481 silly decomposeActions build raw-body@2.3.3
+482 silly decomposeActions install raw-body@2.3.3
+483 silly decomposeActions postinstall raw-body@2.3.3
+484 silly decomposeActions finalize raw-body@2.3.3
+485 silly decomposeActions refresh-package-json raw-body@2.3.3
+486 silly decomposeActions fetch accepts@1.3.5
+487 silly decomposeActions extract accepts@1.3.5
+488 silly decomposeActions preinstall accepts@1.3.5
+489 silly decomposeActions build accepts@1.3.5
+490 silly decomposeActions install accepts@1.3.5
+491 silly decomposeActions postinstall accepts@1.3.5
+492 silly decomposeActions finalize accepts@1.3.5
+493 silly decomposeActions refresh-package-json accepts@1.3.5
+494 silly decomposeActions fetch array-flatten@1.1.1
+495 silly decomposeActions extract array-flatten@1.1.1
+496 silly decomposeActions preinstall array-flatten@1.1.1
+497 silly decomposeActions build array-flatten@1.1.1
+498 silly decomposeActions install array-flatten@1.1.1
+499 silly decomposeActions postinstall array-flatten@1.1.1
+500 silly decomposeActions finalize array-flatten@1.1.1
+501 silly decomposeActions refresh-package-json array-flatten@1.1.1
+502 silly decomposeActions fetch body-parser@1.18.3
+503 silly decomposeActions extract body-parser@1.18.3
+504 silly decomposeActions preinstall body-parser@1.18.3
+505 silly decomposeActions build body-parser@1.18.3
+506 silly decomposeActions install body-parser@1.18.3
+507 silly decomposeActions postinstall body-parser@1.18.3
+508 silly decomposeActions finalize body-parser@1.18.3
+509 silly decomposeActions refresh-package-json body-parser@1.18.3
+510 silly decomposeActions fetch content-disposition@0.5.2
+511 silly decomposeActions extract content-disposition@0.5.2
+512 silly decomposeActions preinstall content-disposition@0.5.2
+513 silly decomposeActions build content-disposition@0.5.2
+514 silly decomposeActions install content-disposition@0.5.2
+515 silly decomposeActions postinstall content-disposition@0.5.2
+516 silly decomposeActions finalize content-disposition@0.5.2
+517 silly decomposeActions refresh-package-json content-disposition@0.5.2
+518 silly decomposeActions fetch cookie@0.3.1
+519 silly decomposeActions extract cookie@0.3.1
+520 silly decomposeActions preinstall cookie@0.3.1
+521 silly decomposeActions build cookie@0.3.1
+522 silly decomposeActions install cookie@0.3.1
+523 silly decomposeActions postinstall cookie@0.3.1
+524 silly decomposeActions finalize cookie@0.3.1
+525 silly decomposeActions refresh-package-json cookie@0.3.1
+526 silly decomposeActions fetch cookie-signature@1.0.6
+527 silly decomposeActions extract cookie-signature@1.0.6
+528 silly decomposeActions preinstall cookie-signature@1.0.6
+529 silly decomposeActions build cookie-signature@1.0.6
+530 silly decomposeActions install cookie-signature@1.0.6
+531 silly decomposeActions postinstall cookie-signature@1.0.6
+532 silly decomposeActions finalize cookie-signature@1.0.6
+533 silly decomposeActions refresh-package-json cookie-signature@1.0.6
+534 silly decomposeActions fetch finalhandler@1.1.1
+535 silly decomposeActions extract finalhandler@1.1.1
+536 silly decomposeActions preinstall finalhandler@1.1.1
+537 silly decomposeActions build finalhandler@1.1.1
+538 silly decomposeActions install finalhandler@1.1.1
+539 silly decomposeActions postinstall finalhandler@1.1.1
+540 silly decomposeActions finalize finalhandler@1.1.1
+541 silly decomposeActions refresh-package-json finalhandler@1.1.1
+542 silly decomposeActions fetch merge-descriptors@1.0.1
+543 silly decomposeActions extract merge-descriptors@1.0.1
+544 silly decomposeActions preinstall merge-descriptors@1.0.1
+545 silly decomposeActions build merge-descriptors@1.0.1
+546 silly decomposeActions install merge-descriptors@1.0.1
+547 silly decomposeActions postinstall merge-descriptors@1.0.1
+548 silly decomposeActions finalize merge-descriptors@1.0.1
+549 silly decomposeActions refresh-package-json merge-descriptors@1.0.1
+550 silly decomposeActions fetch methods@1.1.2
+551 silly decomposeActions extract methods@1.1.2
+552 silly decomposeActions preinstall methods@1.1.2
+553 silly decomposeActions build methods@1.1.2
+554 silly decomposeActions install methods@1.1.2
+555 silly decomposeActions postinstall methods@1.1.2
+556 silly decomposeActions finalize methods@1.1.2
+557 silly decomposeActions refresh-package-json methods@1.1.2
+558 silly decomposeActions fetch path-to-regexp@0.1.7
+559 silly decomposeActions extract path-to-regexp@0.1.7
+560 silly decomposeActions preinstall path-to-regexp@0.1.7
+561 silly decomposeActions build path-to-regexp@0.1.7
+562 silly decomposeActions install path-to-regexp@0.1.7
+563 silly decomposeActions postinstall path-to-regexp@0.1.7
+564 silly decomposeActions finalize path-to-regexp@0.1.7
+565 silly decomposeActions refresh-package-json path-to-regexp@0.1.7
+566 silly decomposeActions fetch proxy-addr@2.0.4
+567 silly decomposeActions extract proxy-addr@2.0.4
+568 silly decomposeActions preinstall proxy-addr@2.0.4
+569 silly decomposeActions build proxy-addr@2.0.4
+570 silly decomposeActions install proxy-addr@2.0.4
+571 silly decomposeActions postinstall proxy-addr@2.0.4
+572 silly decomposeActions finalize proxy-addr@2.0.4
+573 silly decomposeActions refresh-package-json proxy-addr@2.0.4
+574 silly decomposeActions fetch safe-buffer@5.1.2
+575 silly decomposeActions extract safe-buffer@5.1.2
+576 silly decomposeActions preinstall safe-buffer@5.1.2
+577 silly decomposeActions build safe-buffer@5.1.2
+578 silly decomposeActions install safe-buffer@5.1.2
+579 silly decomposeActions postinstall safe-buffer@5.1.2
+580 silly decomposeActions finalize safe-buffer@5.1.2
+581 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+582 silly decomposeActions fetch serve-static@1.13.2
+583 silly decomposeActions extract serve-static@1.13.2
+584 silly decomposeActions preinstall serve-static@1.13.2
+585 silly decomposeActions build serve-static@1.13.2
+586 silly decomposeActions install serve-static@1.13.2
+587 silly decomposeActions postinstall serve-static@1.13.2
+588 silly decomposeActions finalize serve-static@1.13.2
+589 silly decomposeActions refresh-package-json serve-static@1.13.2
+590 silly decomposeActions fetch utils-merge@1.0.1
+591 silly decomposeActions extract utils-merge@1.0.1
+592 silly decomposeActions preinstall utils-merge@1.0.1
+593 silly decomposeActions build utils-merge@1.0.1
+594 silly decomposeActions install utils-merge@1.0.1
+595 silly decomposeActions postinstall utils-merge@1.0.1
+596 silly decomposeActions finalize utils-merge@1.0.1
+597 silly decomposeActions refresh-package-json utils-merge@1.0.1
+598 silly decomposeActions fetch vary@1.1.2
+599 silly decomposeActions extract vary@1.1.2
+600 silly decomposeActions preinstall vary@1.1.2
+601 silly decomposeActions build vary@1.1.2
+602 silly decomposeActions install vary@1.1.2
+603 silly decomposeActions postinstall vary@1.1.2
+604 silly decomposeActions finalize vary@1.1.2
+605 silly decomposeActions refresh-package-json vary@1.1.2
+606 silly decomposeActions fetch express@4.16.4
+607 silly decomposeActions extract express@4.16.4
+608 silly decomposeActions preinstall express@4.16.4
+609 silly decomposeActions build express@4.16.4
+610 silly decomposeActions install express@4.16.4
+611 silly decomposeActions postinstall express@4.16.4
+612 silly decomposeActions finalize express@4.16.4
+613 silly decomposeActions refresh-package-json express@4.16.4
+614 silly install executeActions
+615 silly doSerial global-install 384
+616 verbose correctMkdir C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\_locks correctMkdir not in flight; initializing
+617 verbose makeDirectory C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\_locks creation not in flight; initializing
+618 timing audit compress Completed in 1ms
+619 info audit Submitting payload of 3160bytes
+620 verbose makeCacheDir UID & GID are irrelevant on win32
+621 verbose lock using C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\_locks\staging-519616bfc46b2a92.lock for C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging
+622 silly doParallel extract 48
+623 silly extract bytes@3.0.0
+624 silly extract content-type@1.0.4
+625 silly extract depd@1.1.2
+626 silly extract destroy@1.0.4
+627 silly extract ee-first@1.1.1
+628 silly extract encodeurl@1.0.2
+629 silly extract escape-html@1.0.3
+630 silly extract etag@1.8.1
+631 silly extract forwarded@0.1.2
+632 silly extract fresh@0.5.2
+633 silly extract inherits@2.0.3
+634 silly extract ipaddr.js@1.8.0
+635 silly extract media-typer@0.3.0
+636 silly extract mime@1.4.1
+637 silly extract mime-db@1.38.0
+638 silly extract mime-types@2.1.22
+639 silly extract ms@2.0.0
+640 silly extract debug@2.6.9
+641 silly extract negotiator@0.6.1
+642 silly extract on-finished@2.3.0
+643 silly extract parseurl@1.3.2
+644 silly extract qs@6.5.2
+645 silly extract range-parser@1.2.0
+646 silly extract safer-buffer@2.1.2
+647 silly extract iconv-lite@0.4.23
+648 silly extract setprototypeof@1.1.0
+649 silly extract statuses@1.4.0
+650 silly extract http-errors@1.6.3
+651 silly extract send@0.16.2
+652 silly extract type-is@1.6.16
+653 silly extract unpipe@1.0.0
+654 silly extract raw-body@2.3.3
+655 silly extract accepts@1.3.5
+656 silly extract array-flatten@1.1.1
+657 silly extract body-parser@1.18.3
+658 silly extract content-disposition@0.5.2
+659 silly extract cookie@0.3.1
+660 silly extract cookie-signature@1.0.6
+661 silly extract finalhandler@1.1.1
+662 silly extract merge-descriptors@1.0.1
+663 silly extract methods@1.1.2
+664 silly extract path-to-regexp@0.1.7
+665 silly extract proxy-addr@2.0.4
+666 silly extract safe-buffer@5.1.2
+667 silly extract serve-static@1.13.2
+668 silly extract utils-merge@1.0.1
+669 silly extract vary@1.1.2
+670 silly extract express@4.16.4
+671 silly tarball trying bytes@3.0.0 by hash: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
+672 silly tarball trying content-type@~1.0.4 by hash: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
+673 silly tarball trying depd@~1.1.2 by hash: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+674 silly tarball trying destroy@~1.0.4 by hash: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+675 silly tarball trying ee-first@1.1.1 by hash: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+676 silly tarball trying encodeurl@~1.0.2 by hash: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+677 silly tarball trying escape-html@~1.0.3 by hash: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+678 silly tarball trying etag@~1.8.1 by hash: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+679 silly tarball trying forwarded@~0.1.2 by hash: sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
+680 silly tarball trying fresh@0.5.2 by hash: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+681 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+682 silly tarball trying ipaddr.js@1.8.0 by hash: sha1-6qM9bd16zo9/b+DJygRA5wZzix4=
+683 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+684 silly tarball trying mime@1.4.1 by hash: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
+685 silly tarball trying mime-db@~1.38.0 by hash: sha512-bqVioMFFzc2awcdJZIzR3HjZFX20QhilVS7hytkKrv7xFAn8bM1gzc/FOX2awLISvWe0PV8ptFKcon+wZ5qYkg==
+686 silly tarball trying mime-types@~2.1.18 by hash: sha512-aGl6TZGnhm/li6F7yx82bJiBZwgiEa4Hf6CNr8YO+r5UHr53tSTYZb102zyU50DOWWKeOv0uQLRL0/9EiKWCog==
+687 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+688 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+689 silly tarball trying negotiator@0.6.1 by hash: sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
+690 silly tarball trying on-finished@~2.3.0 by hash: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+691 silly tarball trying parseurl@~1.3.2 by hash: sha1-/CidTtiZMRlGDBViUyYs3I3mW/M=
+692 silly tarball trying qs@6.5.2 by hash: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+693 silly tarball trying range-parser@~1.2.0 by hash: sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
+694 silly tarball trying safer-buffer@>= 2.1.2 < 3 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+695 silly tarball trying iconv-lite@0.4.23 by hash: sha512-neyTUVFtahjf0mB3dZT77u+8O0QB89jFdnBkd5P1JgYPbPaia3gXXOVL2fq8VyU2gMMD7SaN7QukTB/pmXYvDA==
+696 silly tarball trying setprototypeof@1.1.0 by hash: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==
+697 silly tarball trying statuses@~1.4.0 by hash: sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
+698 silly tarball trying http-errors@~1.6.3 by hash: sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=
+699 silly tarball trying send@0.16.2 by hash: sha512-E64YFPUssFHEFBvpbbjr44NCLtI1AohxQ8ZSiJjQLskAdKuriYEP6VyGEsRDH8ScozGpkaX1BGvhanqCwkcEZw==
+700 silly tarball trying type-is@~1.6.16 by hash: sha512-HRkVv/5qY2G6I8iab9cI7v1bOIdhm94dVjQCPFElW9W+3GeDOSHmy2EBYe4VTApuzolPcmgFTN3ftVJRKR2J9Q==
+701 silly tarball trying unpipe@1.0.0 by hash: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+702 silly tarball trying raw-body@2.3.3 by hash: sha512-9esiElv1BrZoI3rCDuOuKCBRbuApGGaDPQfjSflGxdy4oyzqghxu6klEkkVIvBje+FF0BX9coEv8KqW6X/7njw==
+703 silly tarball trying accepts@~1.3.5 by hash: sha1-63d99gEXI6OxTopywIBcjoZ0a9I=
+704 silly tarball trying array-flatten@1.1.1 by hash: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+705 silly tarball trying body-parser@1.18.3 by hash: sha1-WykhmP/dVTs6DyDe0FkrlWlVyLQ=
+706 silly tarball trying content-disposition@0.5.2 by hash: sha1-DPaLud318r55YcOoUXjLhdunjLQ=
+707 silly tarball trying cookie@0.3.1 by hash: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+708 silly tarball trying cookie-signature@1.0.6 by hash: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+709 silly tarball trying finalhandler@1.1.1 by hash: sha512-Y1GUDo39ez4aHAw7MysnUD5JzYX+WaIj8I57kO3aEPT1fFRL4sr7mjei97FgnwhAyyzRYmQZaTHb2+9uZ1dPtg==
+710 silly tarball trying merge-descriptors@1.0.1 by hash: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+711 silly tarball trying methods@~1.1.2 by hash: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+712 silly tarball trying path-to-regexp@0.1.7 by hash: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+713 silly tarball trying proxy-addr@~2.0.4 by hash: sha512-5erio2h9jp5CHGwcybmxmVqHmnCBZeewlfJ0pex+UW7Qny7OOZXTtH56TGNyBizkgiOwhJtMKrVzDTeKcySZwA==
+714 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+715 silly tarball trying serve-static@1.13.2 by hash: sha512-p/tdJrO4U387R9oMjb1oj7qSMaMfmOyd4j9hOFoxZe2baQszgHcSWjuya/CiT5kgZZKRudHNOA0pYXOl8rQ5nw==
+716 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+717 silly tarball trying vary@~1.1.2 by hash: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+718 silly tarball trying express@latest by hash: sha512-j12Uuyb4FMrd/qQAm6uCHAkPtO8FDTRJZBDd5D2KOL2eLaz1yUNdUB/NOIyq0iU4q4cFarsUCrnFDPBcnksuOg==
+719 silly tarball no local data for destroy@~1.0.4. Extracting by manifest.
+720 silly tarball no local data for forwarded@~0.1.2. Extracting by manifest.
+721 silly tarball no local data for escape-html@~1.0.3. Extracting by manifest.
+722 silly tarball no local data for ee-first@1.1.1. Extracting by manifest.
+723 silly tarball no local data for fresh@0.5.2. Extracting by manifest.
+724 silly tarball no local data for inherits@2.0.3. Extracting by manifest.
+725 silly tarball no local data for ipaddr.js@1.8.0. Extracting by manifest.
+726 silly tarball no local data for mime-types@~2.1.18. Extracting by manifest.
+727 silly tarball no local data for mime-db@~1.38.0. Extracting by manifest.
+728 silly tarball no local data for negotiator@0.6.1. Extracting by manifest.
+729 silly tarball no local data for on-finished@~2.3.0. Extracting by manifest.
+730 silly tarball no local data for parseurl@~1.3.2. Extracting by manifest.
+731 silly tarball no local data for qs@6.5.2. Extracting by manifest.
+732 silly tarball no local data for iconv-lite@0.4.23. Extracting by manifest.
+733 silly tarball no local data for safer-buffer@>= 2.1.2 < 3. Extracting by manifest.
+734 silly tarball no local data for http-errors@~1.6.3. Extracting by manifest.
+735 silly tarball no local data for send@0.16.2. Extracting by manifest.
+736 silly tarball no local data for type-is@~1.6.16. Extracting by manifest.
+737 silly tarball no local data for unpipe@1.0.0. Extracting by manifest.
+738 silly tarball no local data for raw-body@2.3.3. Extracting by manifest.
+739 silly tarball no local data for accepts@~1.3.5. Extracting by manifest.
+740 silly tarball no local data for body-parser@1.18.3. Extracting by manifest.
+741 silly tarball no local data for cookie@0.3.1. Extracting by manifest.
+742 silly tarball no local data for cookie-signature@1.0.6. Extracting by manifest.
+743 silly tarball no local data for methods@~1.1.2. Extracting by manifest.
+744 silly tarball no local data for merge-descriptors@1.0.1. Extracting by manifest.
+745 silly tarball no local data for finalhandler@1.1.1. Extracting by manifest.
+746 silly tarball no local data for serve-static@1.13.2. Extracting by manifest.
+747 silly tarball no local data for safe-buffer@5.1.2. Extracting by manifest.
+748 silly tarball no local data for utils-merge@1.0.1. Extracting by manifest.
+749 silly tarball no local data for express@latest. Extracting by manifest.
+750 silly tarball no local data for vary@~1.1.2. Extracting by manifest.
+751 silly extract bytes@3.0.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\bytes-93d8f737 (83ms)
+752 silly extract ms@2.0.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\ms-554f45d5 (87ms)
+753 silly extract array-flatten@1.1.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\array-flatten-076e08a0 (84ms)
+754 silly extract content-type@~1.0.4 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\content-type-70cc211e (91ms)
+755 silly extract media-typer@0.3.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\media-typer-4b786d78 (90ms)
+756 silly extract etag@~1.8.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\etag-ae8ffd91 (90ms)
+757 silly extract encodeurl@~1.0.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\encodeurl-ffa2d245 (91ms)
+758 silly extract range-parser@~1.2.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\range-parser-04950f80 (88ms)
+759 silly extract setprototypeof@1.1.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\setprototypeof-67977546 (88ms)
+760 silly extract path-to-regexp@0.1.7 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\path-to-regexp-9b969b7c (87ms)
+761 silly extract statuses@~1.4.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\statuses-fbe509b3 (90ms)
+762 silly extract proxy-addr@~2.0.4 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\proxy-addr-59025854 (88ms)
+763 silly extract content-disposition@0.5.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\content-disposition-524c8393 (89ms)
+764 silly extract mime@1.4.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\mime-134703e9 (101ms)
+765 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 78ms
+766 http fetch GET 200 https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz 78ms
+767 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz 73ms
+768 silly extract escape-html@~1.0.3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\escape-html-880edd12 (120ms)
+769 silly extract destroy@~1.0.4 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\destroy-f8d95b1f (120ms)
+770 silly extract inherits@2.0.3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\inherits-2e84255b (119ms)
+771 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.38.0.tgz 81ms
+772 http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.8.0.tgz 85ms
+773 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 88ms
+774 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz 84ms
+775 http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 92ms
+776 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.22.tgz 89ms
+777 silly extract fresh@0.5.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\fresh-91b286b0 (133ms)
+778 silly extract ee-first@1.1.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\ee-first-fb56ca6a (136ms)
+779 silly extract mime-types@~2.1.18 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\mime-types-1197d4d0 (134ms)
+780 silly extract ipaddr.js@1.8.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\ipaddr.js-42022954 (137ms)
+781 silly extract depd@~1.1.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\depd-ea499acb (140ms)
+782 silly extract negotiator@0.6.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\negotiator-b7fe6ea2 (138ms)
+783 silly extract debug@2.6.9 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\debug-d4c85a32 (138ms)
+784 http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz 107ms
+785 silly extract forwarded@~0.1.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\forwarded-48b8975d (143ms)
+786 silly extract mime-db@~1.38.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\mime-db-3b48617c (144ms)
+787 http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 101ms
+788 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-1.6.3.tgz 102ms
+789 http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 100ms
+790 silly extract unpipe@1.0.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\unpipe-a35ea4cb (144ms)
+791 silly extract http-errors@~1.6.3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\http-errors-132eae84 (144ms)
+792 silly extract methods@~1.1.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\methods-fb318c35 (142ms)
+793 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.18.3.tgz 102ms
+794 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.16.2.tgz 105ms
+795 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz 103ms
+796 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.13.2.tgz 103ms
+797 http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 98ms
+798 silly extract merge-descriptors@1.0.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\merge-descriptors-f532049a (147ms)
+799 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.2.tgz 108ms
+800 silly extract utils-merge@1.0.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\utils-merge-871d062a (146ms)
+801 silly extract parseurl@~1.3.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\parseurl-658fe4c7 (150ms)
+802 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.16.4.tgz 101ms
+803 silly extract serve-static@1.13.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\serve-static-49848029 (148ms)
+804 silly extract send@0.16.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\send-98a92206 (150ms)
+805 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 110ms
+806 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.1.tgz 108ms
+807 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 111ms
+808 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 111ms
+809 silly extract finalhandler@1.1.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\finalhandler-2c795b93 (150ms)
+810 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz 110ms
+811 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 102ms
+812 silly extract on-finished@~2.3.0 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\on-finished-aae5902a (154ms)
+813 silly extract type-is@~1.6.16 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\type-is-3a7ab4af (152ms)
+814 silly extract vary@~1.1.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\vary-bcc09129 (150ms)
+815 silly extract safer-buffer@>= 2.1.2 < 3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\safer-buffer-ebc548bc (153ms)
+816 silly extract body-parser@1.18.3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\body-parser-b4eb8aa7 (155ms)
+817 silly extract qs@6.5.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\qs-abf8f51d (161ms)
+818 silly extract express@latest extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\express-a84aa55d (162ms)
+819 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.3.3.tgz 127ms
+820 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.5.tgz 127ms
+821 silly extract raw-body@2.3.3 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\raw-body-44abeb1d (169ms)
+822 silly extract accepts@~1.3.5 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\accepts-b47ac352 (169ms)
+823 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz 289ms
+824 silly extract cookie@0.3.1 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\cookie-cb056c09 (330ms)
+825 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz 290ms
+826 silly extract cookie-signature@1.0.6 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\cookie-signature-f3c2c0cf (332ms)
+827 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 300ms
+828 silly extract safe-buffer@5.1.2 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\safe-buffer-a97e663f (347ms)
+829 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.23.tgz 310ms
+830 silly extract iconv-lite@0.4.23 extracted to C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging\iconv-lite-c22fa20a (353ms)
+831 timing action:extract Completed in 358ms
+832 silly doReverseSerial unbuild 384
+833 silly doSerial remove 384
+834 silly doSerial move 384
+835 silly doSerial finalize 384
+836 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\bytes
+837 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\content-type
+838 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\depd
+839 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy
+840 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ee-first
+841 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\encodeurl
+842 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\escape-html
+843 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\etag
+844 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\forwarded
+845 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\fresh
+846 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\inherits
+847 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ipaddr.js
+848 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\media-typer
+849 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime
+850 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime-db
+851 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime-types
+852 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ms
+853 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\debug
+854 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\negotiator
+855 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\on-finished
+856 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\parseurl
+857 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\qs
+858 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\range-parser
+859 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\safer-buffer
+860 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\iconv-lite
+861 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\setprototypeof
+862 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\statuses
+863 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\http-errors
+864 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\send
+865 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\type-is
+866 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\unpipe
+867 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\raw-body
+868 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\accepts
+869 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\array-flatten
+870 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\body-parser
+871 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\content-disposition
+872 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\cookie
+873 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\cookie-signature
+874 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\finalhandler
+875 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\merge-descriptors
+876 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\methods
+877 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\path-to-regexp
+878 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\proxy-addr
+879 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\safe-buffer
+880 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\serve-static
+881 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\utils-merge
+882 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\vary
+883 silly finalize C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\express
+884 timing action:finalize Completed in 62ms
+885 silly doParallel refresh-package-json 48
+886 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\bytes
+887 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\content-type
+888 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\depd
+889 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy
+890 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ee-first
+891 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\encodeurl
+892 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\escape-html
+893 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\etag
+894 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\forwarded
+895 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\fresh
+896 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\inherits
+897 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ipaddr.js
+898 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\media-typer
+899 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime
+900 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime-db
+901 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\mime-types
+902 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\ms
+903 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\debug
+904 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\negotiator
+905 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\on-finished
+906 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\parseurl
+907 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\qs
+908 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\range-parser
+909 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\safer-buffer
+910 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\iconv-lite
+911 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\setprototypeof
+912 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\statuses
+913 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\http-errors
+914 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\send
+915 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\type-is
+916 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\unpipe
+917 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\raw-body
+918 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\accepts
+919 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\array-flatten
+920 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\body-parser
+921 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\content-disposition
+922 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\cookie
+923 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\cookie-signature
+924 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\finalhandler
+925 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\merge-descriptors
+926 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\methods
+927 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\path-to-regexp
+928 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\proxy-addr
+929 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\safe-buffer
+930 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\serve-static
+931 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\utils-merge
+932 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\vary
+933 silly refresh-package-json C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\express
+934 timing action:refresh-package-json Completed in 75ms
+935 verbose unlock done using C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\_locks\staging-519616bfc46b2a92.lock for C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\.staging
+936 timing stage:rollbackFailedOptional Completed in 7ms
+937 timing stage:runTopLevelLifecycles Completed in 1433ms
+938 silly saveTree web-and-mobile@1.0.0
+938 silly saveTree `-- express@4.16.4
+938 silly saveTree   +-- accepts@1.3.5
+938 silly saveTree   | +-- mime-types@2.1.22
+938 silly saveTree   | | `-- mime-db@1.38.0
+938 silly saveTree   | `-- negotiator@0.6.1
+938 silly saveTree   +-- array-flatten@1.1.1
+938 silly saveTree   +-- body-parser@1.18.3
+938 silly saveTree   | +-- bytes@3.0.0
+938 silly saveTree   | +-- content-type@1.0.4
+938 silly saveTree   | +-- debug@2.6.9
+938 silly saveTree   | | `-- ms@2.0.0
+938 silly saveTree   | +-- depd@1.1.2
+938 silly saveTree   | +-- http-errors@1.6.3
+938 silly saveTree   | | +-- inherits@2.0.3
+938 silly saveTree   | | +-- setprototypeof@1.1.0
+938 silly saveTree   | | `-- statuses@1.4.0
+938 silly saveTree   | +-- iconv-lite@0.4.23
+938 silly saveTree   | | `-- safer-buffer@2.1.2
+938 silly saveTree   | +-- on-finished@2.3.0
+938 silly saveTree   | | `-- ee-first@1.1.1
+938 silly saveTree   | +-- qs@6.5.2
+938 silly saveTree   | +-- raw-body@2.3.3
+938 silly saveTree   | | `-- unpipe@1.0.0
+938 silly saveTree   | `-- type-is@1.6.16
+938 silly saveTree   |   `-- media-typer@0.3.0
+938 silly saveTree   +-- content-disposition@0.5.2
+938 silly saveTree   +-- content-type@1.0.4
+938 silly saveTree   +-- cookie-signature@1.0.6
+938 silly saveTree   +-- cookie@0.3.1
+938 silly saveTree   +-- debug@2.6.9
+938 silly saveTree   +-- depd@1.1.2
+938 silly saveTree   +-- encodeurl@1.0.2
+938 silly saveTree   +-- escape-html@1.0.3
+938 silly saveTree   +-- etag@1.8.1
+938 silly saveTree   +-- finalhandler@1.1.1
+938 silly saveTree   | `-- parseurl@1.3.2
+938 silly saveTree   +-- fresh@0.5.2
+938 silly saveTree   +-- merge-descriptors@1.0.1
+938 silly saveTree   +-- methods@1.1.2
+938 silly saveTree   +-- on-finished@2.3.0
+938 silly saveTree   +-- parseurl@1.3.2
+938 silly saveTree   +-- path-to-regexp@0.1.7
+938 silly saveTree   +-- proxy-addr@2.0.4
+938 silly saveTree   | +-- forwarded@0.1.2
+938 silly saveTree   | `-- ipaddr.js@1.8.0
+938 silly saveTree   +-- qs@6.5.2
+938 silly saveTree   +-- range-parser@1.2.0
+938 silly saveTree   +-- safe-buffer@5.1.2
+938 silly saveTree   +-- send@0.16.2
+938 silly saveTree   | +-- destroy@1.0.4
+938 silly saveTree   | `-- mime@1.4.1
+938 silly saveTree   +-- serve-static@1.13.2
+938 silly saveTree   +-- setprototypeof@1.1.0
+938 silly saveTree   +-- statuses@1.4.0
+938 silly saveTree   +-- type-is@1.6.16
+938 silly saveTree   +-- utils-merge@1.0.1
+938 silly saveTree   `-- vary@1.1.2
+939 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json.1639181725' -> 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json'
+940 verbose cwd C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile
+941 verbose Windows_NT 10.0.17763
+942 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express" "--save"
+943 verbose node v10.15.0
+944 verbose npm  v6.4.1
+945 error path C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json.1639181725
+946 error code EPERM
+947 error errno -4048
+948 error syscall rename
+949 error Error: EPERM: operation not permitted, rename 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json.1639181725' -> 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json'
+949 error  { [Error: EPERM: operation not permitted, rename 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json.1639181725' -> 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json']
+949 error   cause:
+949 error    { Error: EPERM: operation not permitted, rename 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json.1639181725' -> 'C:\Users\Janne Marjalaakso\web-projects\part3\web-and-mobile\node_modules\destroy\package.json'
+949 error      errno: -4048,
+949 error      code: 'EPERM',
+949 error      syscall: 'rename',
+949 error      path:
+949 error       'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json.1639181725',
+949 error      dest:
+949 error       'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json' },
+949 error   stack:
+949 error    'Error: EPERM: operation not permitted, rename \'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json.1639181725\' -> \'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json\'',
+949 error   errno: -4048,
+949 error   code: 'EPERM',
+949 error   syscall: 'rename',
+949 error   path:
+949 error    'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json.1639181725',
+949 error   dest:
+949 error    'C:\\Users\\Janne Marjalaakso\\web-projects\\part3\\web-and-mobile\\node_modules\\destroy\\package.json',
+949 error   parent: 'web-and-mobile' }
+950 error The operation was rejected by your operating system.
+950 error It's possible that the file was already in use (by a text editor or antivirus),
+950 error or that you lack permissions to access it.
+950 error
+950 error If you believe this might be a permissions issue, please double-check the
+950 error permissions of the file and its containing directories, or try running
+950 error the command again as root/Administrator (though this is not recommended).
+951 verbose exit [ -4048, true ]

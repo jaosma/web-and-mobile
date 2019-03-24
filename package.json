@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,8 +14,14 @@
   },
   "author": "jaosma",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
   "bugs": {
     "url": "https://github.com/jaosma/web-and-mobile/issues"
   },
-  "homepage": "https://github.com/jaosma/web-and-mobile#readme"
+  "homepage": "https://github.com/jaosma/web-and-mobile#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
