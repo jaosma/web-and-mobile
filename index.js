@@ -7,6 +7,16 @@ app.use(cors())
 
 app.use(bodyParser.json())
 
+const logger = (request, response, next) => {
+  console.log('Method:', request.method)
+  console.log('Path:  ', request.path)
+  console.log('Body:  ', request.body)
+  console.log('---')
+  next()
+}
+
+app.use(logger)
+
 let persons = [
     {
         name: "Arto Hellas",
@@ -78,7 +88,13 @@ let persons = [
       response.json(person)
   })
 
-  const PORT = 3001
+  const error = (request, response) => {
+    response.status(404).send({ error: 'unknown endpoint' })
+  }
+  
+  app.use(error)
+
+  const PORT = process.env.PORT || 3001
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
-  }) 
+  })
